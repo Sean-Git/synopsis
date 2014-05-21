@@ -7,16 +7,11 @@ video synopsis
   I want to build a practical surveillance video synopsis engine for personal use. Next time you need to develop a video synopsis prototype engine within short tiem, hope this would be helpful.
 
   I have developed the basic modules including:(with the use of opencv)
-    #1  Background Modeling
-    
+    1.Background Modeling
       This is achieved using running average method for stationary background. The outcome is acceptable. But cannot be made better using algorithm like Gauss Modeling.
-      
-    #2  Foreground Detection
-    
+    2.Foreground Detection
       This is achieved using simply the difference between background image and frame image. 
-      
-    #3 Target Track
-    
+    3.Target Track
       Using the detection result, we generate a series of rectangle area indicating new target. Then we generate a cascade list as database to store the track information of each moving target. This data structure is easy to understand. However, to make more robust synopsis engine, we need a better and more complicated data structure, maybe a graph structure.
   As you can see, each module can be made better. More attention will be paid to enhance the effectiveness of our engine.
   
@@ -26,4 +21,5 @@ video synopsis
 
 
 Author: Sean.W
+
 Date  : 05/21/2014
