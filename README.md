@@ -4,8 +4,7 @@ synopsis
 video synopsis
 
 
-  I want to build a practical surveillance video synopsis engine for personal use. Next time you need to develop a video synopsis prototype engine within short tiem, 
-hope this would be helpful.
+  I want to build a practical surveillance video synopsis engine for personal use. Next time you need to develop a video synopsis prototype engine within short tiem, hope this would be helpful.
 
   I have developed the basic modules including:(with the use of opencv)
     #1  Background Modeling
@@ -18,9 +17,7 @@ hope this would be helpful.
       maybe a graph structure.
   As you can see, each module can be made better. More attention will be paid to enhance the effectiveness of our engine.
   
-  The source code are in the directory of "/source", including two files - "synopsis.h" and "synopsis.cpp". You can use them to build a C++ project. 
-I use them to generate dynamic link library(dll) for my own. You can see the hints in "synopsis.h". But anyone can use the interfaces for their own 
-convenience. All source code are open here. 
+  The source code are in the directory of "/source", including two files - "synopsis.h" and "synopsis.cpp". You can use them to build a C++ project. I use them to generate dynamic link library(dll) for my own. You can see the hints in "synopsis.h". But anyone can use the interfaces for their own convenience. All source code are open here. 
 
   A simple demo is shown in the "demo.avi". You can see it works for simple situation. But it need improvement to be more robust to various situations.
 
